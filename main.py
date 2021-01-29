@@ -39,9 +39,6 @@ def readSTU(event):
     elif event == "sta-f-83.stu":
         diathesimes_periodoi = 13
         density_arx = 0.14
-    elif event == "toy_e5_s6.stu":
-        diathesimes_periodoi = 3
-        density_arx = 0.4
     elif event == "tre-s-92.stu":
         diathesimes_periodoi = 23
         density_arx = 0.18
@@ -189,7 +186,6 @@ options = [
     "pur-s-93.stu",
     "rye-s-93.stu",
     "sta-f-83.stu",
-    "toy_e5_s6.stu",
     "tre-s-92.stu",
     "uta-s-92.stu",
     "ute-s-92.stu",
